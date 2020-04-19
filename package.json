@@ -1,0 +1,26 @@
+{
+  "name": "build-lilypond",
+  "main": "./lib/build-lilypond",
+  "version": "0.1.0",
+  "description": "Build LilyPond parts and scores",
+  "repository": "https://github.com/skafdasschaf/build-lilypond",
+  "keywords": [
+    "buildprovider",
+    "lilypond"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "build": ">=0.70.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Builds LilyPond parts and scores",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  }
+}
